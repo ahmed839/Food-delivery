@@ -1,0 +1,22 @@
+1) box modal - A rectangle box is wrapped around every HTML element, The CSS box model describes 
+the layout of HTML elements on a web page. It consists of four parts: content,padding, border,margin
+2) css Selector - css selector are used to find the html element u want to style like simple selector,
+(select elements based on name, id, class) , Pseudo-class selectors  (select elements based on a certain state), 
+Pseudo-elements selectors(select and style a part of an element), Attribute selectors attribute or attribute value
+3) Position Property - The position property specifies the type of positioning method used for an element.
+There are five different position values:Static,relative,fixed,absolute,sticy
+4) box sizing - The CSS box-sizing property allows us to include the padding and border in an element's 
+total width and height.
+5) CSS Grid - CSS Grid is a powerful layout system in CSS that allows you to create two-dimensional layouts with 
+rows and columns.
+6) Flexbox - The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without 
+using float or positioning. and its one dimetional axes
+7) universal selector - The universal selector is indicated by an star (*) - This selector is very useful for 
+applying a broad style across all elements within the HTML document 
+8) pseudo-classes in CSS - Pseudo-classes are used to define the special state of an element. For example user 
+want to style the hover of some element that cas use :hover and write property what u want in the hover of the-class
+9) what are way of write css in html - there are 3 ways to add css in html document - i) first one is inline css-
+by using style attribut in the html element ii) internal - by using <style> element in the head section 
+iii) External - by using a <link> element to link to an external CSS file
+
+

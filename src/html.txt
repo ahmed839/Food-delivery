@@ -1,0 +1,22 @@
+1) What is Doctype  - (Ans) Doctype declaration is  to tell the browser which version we have to use 
+2) Difrence between block element and Inline ? - the block level element start a new line and occupy the full width
+inline element do not start a new line and take up as much width as necessary.
+Exmp block level - <div>, <p>, <h1> to <h6>, <ul>, <ol>, <li>, <header>, <footer>, <nav>, <section>, <article>
+Exmple inline block - <span>, <a>, <strong>, <em>, <img>, <input>, <button>, <label>
+3) semantic elements - that provide clear structur to web document , They help improve accessibility, SEO, 
+and code readability. <header>, <footer>, <nav>, <article> and <section> its a sementic element
+4) HTML5 Boilerplate - is a popular front-end template that provides a starting point for web development projects. 
+<!DOCTYPE html>, <html>, <head>, and <body> tags.
+5)<script async> and <script defer> in HTML5. - asy and defer attributes use in which a script attrubuts in our
+webpage, thre are senario to exicute the browser web page loading 1) is normal script withouth any atribute and
+2nd Defer and 3rd is async , 
+i) in the first senario supose your browser passing the html line by line and suddenly
+the script tag over here that case browser stop the passing html and puse and the countinue with script, and after 
+the fetching network script are execute and completing javascript loading broweser than contine with html passing 
+ii) is async attributes in script tag 
+6) <meta> tag in html - is provide metadata about in html document, it contain does'nt visible your web broweser,
+but its information about the document it self , commonly use attribute "charset" is indicate the charactor 
+encoding and viewport" for controlling the layout on mobile devices
+7) HTML form Element - <input>,<label>,<select>,<option>,<textarea>,<button>
+8) Type attribute - in the form element there are many type attribue like text,email,number,tel,password, 
+search,submit

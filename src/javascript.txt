@@ -1,0 +1,27 @@
+1) Execution context - it has two component init one is memory component and 2nd is code component . memory component store  variable and 
+function as a key value pair and in the code component code is run line by line beacuse javascript is a Syncrounous single threded language. 
+that whole process to calld Execution context.
+ 2) call stack - the call stack is inside the javascript engine and the javascript is a Syncrounous single threded language it has one call 
+ stack it can do one thing at a time. When the code loads in memory, the global execution context gets pushed in the stack. if execution has 
+ been done then it will be popped from the stack. 
+3) event loop - The event loop continuously checks the call stack and the callback queue and micro task queue.if call stack has empty, event 
+loop pushes into call stack.basicaly its job like a gate keeper
+4) call back que - call back functionwich come though setTimeOut and Dom ApI all that goes inside the call back que. and call back has less 
+prioraty than micro task que
+5) micro task que - all the call back function which comes through promises will go inside the micro task que and micro task que has prority 
+than call back que    
+6) SetTimeOut - SetTimeOut function has Two parameter i) its has call back function ii) miliseconds. it register a callback function into the 
+web Api .waiting for the timer exicuted once the time expire .after timer expire has move the call back que and event loop continuously 
+monitring call stack empty or not if call stack has empty event loop pushes the callback que into the call stack and then execute the code
+7) let,var,const difference - i)the scop of var is a function or global scop , the scop of let and const is block scop ii) in the var it can be
+re-declare and re-asign, in the let it can't be re-declare but it can re-asign and in the case of const it can't be re-declare and re-asign
+iii)in the var and let It can be declared without initialization. but in the case of const cann't be declare without initialization. iv) 
+var is hoisted , let and const also hoisted but stay in the temporal dead zone untill the initialization. 
+8) Hoisting - hoisting is javascript by default behavior all delaration to the top of the current scop. var and function delration is hoisted , 
+let and const also hoisted but stay in the temporal dead zone untill the initialization for example :- i creat a var x =7 , one function 
+declation  print some console in the function and declare the function and variable top of the Scop so in the javascript when i execute to code
+first line global memory it can  store the varibale and function as key value pair. thats why before initilizing function declation will print.
+9) Block Scoping - block which indiacte with {}, and block also known as compound statement .block doing multiple combining javascript 
+statement into a group. the variable is accessible within the block that is between the curly braces.
+10) Laxical Envirnment - 
+10) closure - 

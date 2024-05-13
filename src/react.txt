@@ -1,0 +1,4 @@
+Q) How React Work Behind the seen (what is React Algorithum)?
+Ans) React uses Reconcilation Algorithum (is also known as React Fiber).supose we have a DOM and supose i have conatainer and 
+the have 50 listItem and know supose my UI changes to filtiring the 50 listItem to 20 listItem . 50 list of item is virtual Dome 
+virtual dom is represention of Acual Dom(Actual Dome is <div></div>).  
